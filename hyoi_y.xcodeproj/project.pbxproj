@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2A657F5221A6405600A76D33 /* alさん（サンプル）.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2A657F5021A6405000A76D33 /* alさん（サンプル）.jpg */; };
+		2A657F5321A6405600A76D33 /* michelさん（サンプル）.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2A657F5121A6405600A76D33 /* michelさん（サンプル）.jpg */; };
 		2A67FA88219FC97A00950071 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A67FA87219FC97A00950071 /* AppDelegate.swift */; };
 		2A67FA8A219FC97A00950071 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A67FA89219FC97A00950071 /* ViewController.swift */; };
 		2A67FA8D219FC97A00950071 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A67FA8B219FC97A00950071 /* Main.storyboard */; };
@@ -14,6 +16,10 @@
 		2A67FA92219FC97C00950071 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A67FA90219FC97C00950071 /* LaunchScreen.storyboard */; };
 		2A67FA9D219FC97C00950071 /* hyoi_yTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A67FA9C219FC97C00950071 /* hyoi_yTests.swift */; };
 		2A67FAA8219FC97C00950071 /* hyoi_yUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A67FAA7219FC97C00950071 /* hyoi_yUITests.swift */; };
+		2A7FE83021A3CC4000BDDEB2 /* ホイアン（サンプル）.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 2A7FE82D21A3CC3F00BDDEB2 /* ホイアン（サンプル）.JPG */; };
+		2A7FE83221A3CC4000BDDEB2 /* 東京（サンプル）.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2A7FE82F21A3CC4000BDDEB2 /* 東京（サンプル）.jpg */; };
+		2A7FE83421A3CC6C00BDDEB2 /* コロラド（サンプル）.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2A7FE83321A3CC6C00BDDEB2 /* コロラド（サンプル）.jpg */; };
+		2A7FE83621A3DA9600BDDEB2 /* hyoi_icn.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A7FE83521A3DA9600BDDEB2 /* hyoi_icn.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2A657F5021A6405000A76D33 /* alさん（サンプル）.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "alさん（サンプル）.jpg"; sourceTree = "<group>"; };
+		2A657F5121A6405600A76D33 /* michelさん（サンプル）.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "michelさん（サンプル）.jpg"; sourceTree = "<group>"; };
 		2A67FA84219FC97A00950071 /* hyoi_y.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hyoi_y.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A67FA87219FC97A00950071 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2A67FA89219FC97A00950071 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +55,10 @@
 		2A67FAA3219FC97C00950071 /* hyoi_yUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hyoi_yUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A67FAA7219FC97C00950071 /* hyoi_yUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hyoi_yUITests.swift; sourceTree = "<group>"; };
 		2A67FAA9219FC97C00950071 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A7FE82D21A3CC3F00BDDEB2 /* ホイアン（サンプル）.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "ホイアン（サンプル）.JPG"; sourceTree = "<group>"; };
+		2A7FE82F21A3CC4000BDDEB2 /* 東京（サンプル）.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "東京（サンプル）.jpg"; sourceTree = "<group>"; };
+		2A7FE83321A3CC6C00BDDEB2 /* コロラド（サンプル）.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "コロラド（サンプル）.jpg"; sourceTree = "<group>"; };
+		2A7FE83521A3DA9600BDDEB2 /* hyoi_icn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hyoi_icn.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +93,12 @@
 				2A67FA9B219FC97C00950071 /* hyoi_yTests */,
 				2A67FAA6219FC97C00950071 /* hyoi_yUITests */,
 				2A67FA85219FC97A00950071 /* Products */,
+				2A7FE82D21A3CC3F00BDDEB2 /* ホイアン（サンプル）.JPG */,
+				2A7FE82F21A3CC4000BDDEB2 /* 東京（サンプル）.jpg */,
+				2A7FE83321A3CC6C00BDDEB2 /* コロラド（サンプル）.jpg */,
+				2A7FE83521A3DA9600BDDEB2 /* hyoi_icn.png */,
+				2A657F5021A6405000A76D33 /* alさん（サンプル）.jpg */,
+				2A657F5121A6405600A76D33 /* michelさん（サンプル）.jpg */,
 			);
 			sourceTree = "<group>";
 		};
@@ -230,8 +248,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				2A67FA92219FC97C00950071 /* LaunchScreen.storyboard in Resources */,
+				2A7FE83221A3CC4000BDDEB2 /* 東京（サンプル）.jpg in Resources */,
+				2A657F5221A6405600A76D33 /* alさん（サンプル）.jpg in Resources */,
+				2A657F5321A6405600A76D33 /* michelさん（サンプル）.jpg in Resources */,
+				2A7FE83021A3CC4000BDDEB2 /* ホイアン（サンプル）.JPG in Resources */,
 				2A67FA8F219FC97C00950071 /* Assets.xcassets in Resources */,
+				2A7FE83621A3DA9600BDDEB2 /* hyoi_icn.png in Resources */,
 				2A67FA8D219FC97A00950071 /* Main.storyboard in Resources */,
+				2A7FE83421A3CC6C00BDDEB2 /* コロラド（サンプル）.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,6 +457,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 98LF898D63;
 				INFOPLIST_FILE = hyoi_y/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -450,6 +475,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 98LF898D63;
 				INFOPLIST_FILE = hyoi_y/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
