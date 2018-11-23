@@ -18,10 +18,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="hyoi_icn.png" translatesAutoresizingMaskIntoConstraints="NO" id="koq-gn-Uff">
-                                <rect key="frame" x="16" y="90" width="288" height="289"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xbf-qS-OPO">
                                 <rect key="frame" x="90" y="412" width="141" height="32"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -31,6 +27,10 @@
                                     <segue destination="9Hc-vN-ceN" kind="modal" id="cVl-BI-tw3"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="hyoi_icn.png" translatesAutoresizingMaskIntoConstraints="NO" id="koq-gn-Uff">
+                                <rect key="frame" x="16" y="59" width="288" height="289"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <color key="tintColor" red="0.00035058111981111148" green="0.28039736675126903" blue="0.0066496775074949286" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1226,6 +1226,7 @@
         <image name="東京（サンプル）.jpg" width="4722" height="3137"/>
     </resources>
     <inferredMetricsTieBreakers>
+        <segue reference="Bf5-sr-3c2"/>
         <segue reference="Rk4-Kz-VLr"/>
         <segue reference="G2L-cg-OTH"/>
         <segue reference="rHx-Id-D5g"/>
