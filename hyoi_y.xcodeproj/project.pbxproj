@@ -20,6 +20,8 @@
 		2A7FE83221A3CC4000BDDEB2 /* 東京（サンプル）.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2A7FE82F21A3CC4000BDDEB2 /* 東京（サンプル）.jpg */; };
 		2A7FE83421A3CC6C00BDDEB2 /* コロラド（サンプル）.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2A7FE83321A3CC6C00BDDEB2 /* コロラド（サンプル）.jpg */; };
 		2A7FE83621A3DA9600BDDEB2 /* hyoi_icn.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A7FE83521A3DA9600BDDEB2 /* hyoi_icn.png */; };
+		2AC8A2B121A8458A0007457D /* 通話拒否.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2AC8A2AF21A845820007457D /* 通話拒否.jpg */; };
+		2AC8A2B221A8458A0007457D /* 通話許可.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2AC8A2B021A845820007457D /* 通話許可.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +61,8 @@
 		2A7FE82F21A3CC4000BDDEB2 /* 東京（サンプル）.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "東京（サンプル）.jpg"; sourceTree = "<group>"; };
 		2A7FE83321A3CC6C00BDDEB2 /* コロラド（サンプル）.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "コロラド（サンプル）.jpg"; sourceTree = "<group>"; };
 		2A7FE83521A3DA9600BDDEB2 /* hyoi_icn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hyoi_icn.png; sourceTree = "<group>"; };
+		2AC8A2AF21A845820007457D /* 通話拒否.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "通話拒否.jpg"; sourceTree = "<group>"; };
+		2AC8A2B021A845820007457D /* 通話許可.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "通話許可.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,8 @@
 				2A7FE83521A3DA9600BDDEB2 /* hyoi_icn.png */,
 				2A657F5021A6405000A76D33 /* alさん（サンプル）.jpg */,
 				2A657F5121A6405600A76D33 /* michelさん（サンプル）.jpg */,
+				2AC8A2AF21A845820007457D /* 通話拒否.jpg */,
+				2AC8A2B021A845820007457D /* 通話許可.jpg */,
 			);
 			sourceTree = "<group>";
 		};
@@ -247,6 +253,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2AC8A2B121A8458A0007457D /* 通話拒否.jpg in Resources */,
+				2AC8A2B221A8458A0007457D /* 通話許可.jpg in Resources */,
 				2A67FA92219FC97C00950071 /* LaunchScreen.storyboard in Resources */,
 				2A7FE83221A3CC4000BDDEB2 /* 東京（サンプル）.jpg in Resources */,
 				2A657F5221A6405600A76D33 /* alさん（サンプル）.jpg in Resources */,

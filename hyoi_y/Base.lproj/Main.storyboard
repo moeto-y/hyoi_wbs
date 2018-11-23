@@ -18,19 +18,19 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xbf-qS-OPO">
-                                <rect key="frame" x="90" y="412" width="141" height="32"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xbf-qS-OPO">
+                                <rect key="frame" x="362" y="-29" width="367" height="401"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="17"/>
-                                <state key="normal" title="[Connect to hyoi]"/>
+                                <state key="normal" title="[Connect to hyoi]" image="hyoi_icn.png"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sZ8-GM-p2t">
+                                <rect key="frame" x="31" y="155" width="258" height="258"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="hyoi_icn.png"/>
                                 <connections>
-                                    <segue destination="9Hc-vN-ceN" kind="modal" id="cVl-BI-tw3"/>
+                                    <segue destination="9Hc-vN-ceN" kind="modal" id="IWB-H3-XCD"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="hyoi_icn.png" translatesAutoresizingMaskIntoConstraints="NO" id="koq-gn-Uff">
-                                <rect key="frame" x="16" y="59" width="288" height="289"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <color key="tintColor" red="0.00035058111981111148" green="0.28039736675126903" blue="0.0066496775074949286" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -798,28 +798,6 @@
                                 <color key="textColor" red="0.41315943109999997" green="0.48328889139999998" blue="0.49732821649999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nrd-zh-3DD">
-                                <rect key="frame" x="195" y="395" width="65" height="51"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="32"/>
-                                <state key="normal" title="応答">
-                                    <color key="titleColor" red="0.0" green="1" blue="0.018125088720000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
-                                <connections>
-                                    <segue destination="sR0-nX-fOE" kind="modal" id="yfe-Mk-nof"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bbj-S4-njB">
-                                <rect key="frame" x="61" y="395" width="65" height="51"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="32"/>
-                                <state key="normal" title="拒否">
-                                    <color key="titleColor" red="1" green="0.0" blue="0.0093617555430000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
-                                <connections>
-                                    <segue destination="rid-2N-G3T" kind="modal" id="Rk4-Kz-VLr"/>
-                                </connections>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="hyoi リクエストが届きました！" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SD4-Ys-SEs">
                                 <rect key="frame" x="40" y="55" width="244" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -838,6 +816,22 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dWG-3b-K1L">
+                                <rect key="frame" x="61" y="430" width="72" height="72"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="通話拒否.jpg"/>
+                                <connections>
+                                    <segue destination="rid-2N-G3T" kind="modal" id="BAM-ZU-8E2"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QG0-D6-vQL">
+                                <rect key="frame" x="192" y="430" width="72" height="72"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="通話許可.jpg"/>
+                                <connections>
+                                    <segue destination="sR0-nX-fOE" kind="modal" id="4h4-cF-jfZ"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="dr4-4L-doU"/>
@@ -1224,16 +1218,17 @@
         <image name="コロラド（サンプル）.jpg" width="640" height="465"/>
         <image name="ホイアン（サンプル）.JPG" width="4032" height="3024"/>
         <image name="東京（サンプル）.jpg" width="4722" height="3137"/>
+        <image name="通話拒否.jpg" width="611" height="611"/>
+        <image name="通話許可.jpg" width="605" height="605"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="Bf5-sr-3c2"/>
-        <segue reference="Rk4-Kz-VLr"/>
-        <segue reference="G2L-cg-OTH"/>
+        <segue reference="BAM-ZU-8E2"/>
+        <segue reference="jts-Wy-Ppn"/>
         <segue reference="rHx-Id-D5g"/>
-        <segue reference="cVl-BI-tw3"/>
+        <segue reference="IWB-H3-XCD"/>
         <segue reference="bGI-5g-A0e"/>
-        <segue reference="NQU-Wr-FT5"/>
-        <segue reference="Usw-Uv-ssN"/>
+        <segue reference="fZc-1N-ZI4"/>
+        <segue reference="mfO-xK-Rf8"/>
         <segue reference="rWQ-mi-pri"/>
     </inferredMetricsTieBreakers>
 </document>
