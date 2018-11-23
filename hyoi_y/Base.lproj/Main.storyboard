@@ -231,7 +231,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="終了"/>
                                 <connections>
-                                    <segue destination="qKn-7T-V4z" kind="modal" id="c9o-Fy-5Qv"/>
+                                    <segue destination="KLF-DB-uHQ" kind="modal" id="vjQ-dX-zV3"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="hyoi" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ywZ-4y-A7W">
@@ -351,9 +351,6 @@
                                 <rect key="frame" x="137" y="499" width="46" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="確認"/>
-                                <connections>
-                                    <segue destination="KLF-DB-uHQ" kind="modal" id="6Oz-pE-yhQ"/>
-                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -363,7 +360,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gnk-3D-qrH" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4322" y="131"/>
+            <point key="canvasLocation" x="5284" y="-743"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="nNX-bf-m2K">
@@ -540,6 +537,13 @@
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Twitter" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tPb-2m-pfL">
                                 <rect key="frame" x="134" y="208" width="53" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="使い方" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rsh-E4-35w">
+                                <rect key="frame" x="139" y="419" width="52" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -1165,9 +1169,6 @@
                                 <rect key="frame" x="145" y="449" width="31" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="確認"/>
-                                <connections>
-                                    <segue destination="g0m-FC-iCS" kind="modal" id="qHs-BS-UCu"/>
-                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -1176,7 +1177,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qdQ-TM-82E" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="7316" y="-2517"/>
+            <point key="canvasLocation" x="8355" y="-3290"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="bIZ-1q-T0M">
@@ -1203,7 +1204,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="終了"/>
                                 <connections>
-                                    <segue destination="Djc-hM-M1F" kind="modal" id="T9E-Hg-yAK"/>
+                                    <segue destination="g0m-FC-iCS" kind="modal" id="Puj-Ef-yqc"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -1225,14 +1226,13 @@
         <image name="東京（サンプル）.jpg" width="4722" height="3137"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="QUc-zT-5IO"/>
         <segue reference="Rk4-Kz-VLr"/>
-        <segue reference="PRR-xB-LmG"/>
-        <segue reference="WAv-n1-8wv"/>
-        <segue reference="eZ1-FZ-YK6"/>
+        <segue reference="G2L-cg-OTH"/>
+        <segue reference="rHx-Id-D5g"/>
+        <segue reference="cVl-BI-tw3"/>
         <segue reference="bGI-5g-A0e"/>
-        <segue reference="fZc-1N-ZI4"/>
-        <segue reference="VK8-8S-HXd"/>
+        <segue reference="NQU-Wr-FT5"/>
+        <segue reference="Usw-Uv-ssN"/>
         <segue reference="rWQ-mi-pri"/>
     </inferredMetricsTieBreakers>
 </document>
