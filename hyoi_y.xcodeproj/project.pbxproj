@@ -20,6 +20,13 @@
 		2A7FE83221A3CC4000BDDEB2 /* 東京（サンプル）.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2A7FE82F21A3CC4000BDDEB2 /* 東京（サンプル）.jpg */; };
 		2A7FE83421A3CC6C00BDDEB2 /* コロラド（サンプル）.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2A7FE83321A3CC6C00BDDEB2 /* コロラド（サンプル）.jpg */; };
 		2A7FE83621A3DA9600BDDEB2 /* hyoi_icn.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A7FE83521A3DA9600BDDEB2 /* hyoi_icn.png */; };
+		2AA18BD721AB865A00A3C5BE /* ボタン丸.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2AA18BD421AB864A00A3C5BE /* ボタン丸.jpg */; };
+		2AA18BD821AB865A00A3C5BE /* 人数表示.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2AA18BD521AB865000A3C5BE /* 人数表示.jpg */; };
+		2AA18BD921AB865A00A3C5BE /* ボタン四角.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2AA18BD621AB865500A3C5BE /* ボタン四角.jpg */; };
+		2AA18BDB21AB91D600A3C5BE /* 戻るボタン.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2AA18BDA21AB91CD00A3C5BE /* 戻るボタン.jpg */; };
+		2AA18BDD21AB9D2D00A3C5BE /* ボタン枠.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2AA18BDC21AB9D2500A3C5BE /* ボタン枠.jpg */; };
+		2AA18BE121ACDA7A00A3C5BE /* 丸の内駅舎（デモ）.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 2AA18BE021ACDA7400A3C5BE /* 丸の内駅舎（デモ）.JPG */; };
+		2AA18BE321ACDB9E00A3C5BE /* hyoiリモコン.png in Resources */ = {isa = PBXBuildFile; fileRef = 2AA18BE221ACDB9500A3C5BE /* hyoiリモコン.png */; };
 		2AC8A2B121A8458A0007457D /* 通話拒否.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2AC8A2AF21A845820007457D /* 通話拒否.jpg */; };
 		2AC8A2B221A8458A0007457D /* 通話許可.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2AC8A2B021A845820007457D /* 通話許可.jpg */; };
 /* End PBXBuildFile section */
@@ -61,6 +68,13 @@
 		2A7FE82F21A3CC4000BDDEB2 /* 東京（サンプル）.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "東京（サンプル）.jpg"; sourceTree = "<group>"; };
 		2A7FE83321A3CC6C00BDDEB2 /* コロラド（サンプル）.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "コロラド（サンプル）.jpg"; sourceTree = "<group>"; };
 		2A7FE83521A3DA9600BDDEB2 /* hyoi_icn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hyoi_icn.png; sourceTree = "<group>"; };
+		2AA18BD421AB864A00A3C5BE /* ボタン丸.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "ボタン丸.jpg"; sourceTree = "<group>"; };
+		2AA18BD521AB865000A3C5BE /* 人数表示.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "人数表示.jpg"; sourceTree = "<group>"; };
+		2AA18BD621AB865500A3C5BE /* ボタン四角.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "ボタン四角.jpg"; sourceTree = "<group>"; };
+		2AA18BDA21AB91CD00A3C5BE /* 戻るボタン.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "戻るボタン.jpg"; sourceTree = "<group>"; };
+		2AA18BDC21AB9D2500A3C5BE /* ボタン枠.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "ボタン枠.jpg"; sourceTree = "<group>"; };
+		2AA18BE021ACDA7400A3C5BE /* 丸の内駅舎（デモ）.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "丸の内駅舎（デモ）.JPG"; sourceTree = "<group>"; };
+		2AA18BE221ACDB9500A3C5BE /* hyoiリモコン.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hyoiリモコン.png"; sourceTree = "<group>"; };
 		2AC8A2AF21A845820007457D /* 通話拒否.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "通話拒否.jpg"; sourceTree = "<group>"; };
 		2AC8A2B021A845820007457D /* 通話許可.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "通話許可.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -104,7 +118,14 @@
 				2A657F5021A6405000A76D33 /* alさん（サンプル）.jpg */,
 				2A657F5121A6405600A76D33 /* michelさん（サンプル）.jpg */,
 				2AC8A2AF21A845820007457D /* 通話拒否.jpg */,
+				2AA18BDA21AB91CD00A3C5BE /* 戻るボタン.jpg */,
 				2AC8A2B021A845820007457D /* 通話許可.jpg */,
+				2AA18BD421AB864A00A3C5BE /* ボタン丸.jpg */,
+				2AA18BD621AB865500A3C5BE /* ボタン四角.jpg */,
+				2AA18BD521AB865000A3C5BE /* 人数表示.jpg */,
+				2AA18BDC21AB9D2500A3C5BE /* ボタン枠.jpg */,
+				2AA18BE021ACDA7400A3C5BE /* 丸の内駅舎（デモ）.JPG */,
+				2AA18BE221ACDB9500A3C5BE /* hyoiリモコン.png */,
 			);
 			sourceTree = "<group>";
 		};
@@ -254,15 +275,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				2AC8A2B121A8458A0007457D /* 通話拒否.jpg in Resources */,
+				2AA18BDB21AB91D600A3C5BE /* 戻るボタン.jpg in Resources */,
 				2AC8A2B221A8458A0007457D /* 通話許可.jpg in Resources */,
+				2AA18BD721AB865A00A3C5BE /* ボタン丸.jpg in Resources */,
 				2A67FA92219FC97C00950071 /* LaunchScreen.storyboard in Resources */,
 				2A7FE83221A3CC4000BDDEB2 /* 東京（サンプル）.jpg in Resources */,
+				2AA18BD821AB865A00A3C5BE /* 人数表示.jpg in Resources */,
 				2A657F5221A6405600A76D33 /* alさん（サンプル）.jpg in Resources */,
 				2A657F5321A6405600A76D33 /* michelさん（サンプル）.jpg in Resources */,
 				2A7FE83021A3CC4000BDDEB2 /* ホイアン（サンプル）.JPG in Resources */,
 				2A67FA8F219FC97C00950071 /* Assets.xcassets in Resources */,
+				2AA18BD921AB865A00A3C5BE /* ボタン四角.jpg in Resources */,
+				2AA18BE121ACDA7A00A3C5BE /* 丸の内駅舎（デモ）.JPG in Resources */,
 				2A7FE83621A3DA9600BDDEB2 /* hyoi_icn.png in Resources */,
 				2A67FA8D219FC97A00950071 /* Main.storyboard in Resources */,
+				2AA18BDD21AB9D2D00A3C5BE /* ボタン枠.jpg in Resources */,
+				2AA18BE321ACDB9E00A3C5BE /* hyoiリモコン.png in Resources */,
 				2A7FE83421A3CC6C00BDDEB2 /* コロラド（サンプル）.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
