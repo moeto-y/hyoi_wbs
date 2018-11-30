@@ -39,7 +39,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-363.75" y="-743.66197183098598"/>
+            <point key="canvasLocation" x="-146" y="-745"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="tzJ-4j-ygw">
@@ -375,7 +375,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gnk-3D-qrH" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="6735" y="-786"/>
+            <point key="canvasLocation" x="6681" y="-788"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="nNX-bf-m2K">
@@ -512,6 +512,36 @@
             <point key="canvasLocation" x="1685.625" y="954.92957746478874"/>
         </scene>
         <!--View Controller-->
+        <scene sceneID="tXR-wl-ANm">
+            <objects>
+                <viewController id="1Sl-xG-IZh" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="jeF-8E-Ha1">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="S4B-BV-sCo"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="e8Q-K5-49b" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1613" y="2369"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="aFs-2Z-Q47">
+            <objects>
+                <viewController id="VqL-uK-lHB" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="fc9-m9-Y59">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="Gbw-Ib-doU"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="W0f-0B-hKr" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2387" y="2370"/>
+        </scene>
+        <!--View Controller-->
         <scene sceneID="t4m-oX-928">
             <objects>
                 <viewController id="10l-qz-sos" sceneMemberID="viewController">
@@ -619,7 +649,7 @@
         <scene sceneID="E3j-gC-EPH">
             <objects>
                 <viewController id="9Hc-vN-ceN" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="EMQ-0H-hxS">
+                    <view key="view" contentMode="scaleToFill" id="EMQ-0H-hxS" customClass="UIImageView">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
@@ -628,44 +658,41 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="お問い合わせ"/>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Zt-Kj-9rY">
-                                <rect key="frame" x="16" y="212" width="288" height="60"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Zt-Kj-9rY">
+                                <rect key="frame" x="16" y="149" width="286" height="75"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="20"/>
-                                <state key="normal" title="アバターとしてログイン" backgroundImage="ボタン枠.jpg">
+                                <state key="normal" image="アバターとしてログイン.png">
                                     <color key="titleColor" red="0.35235373687823451" green="0.49593512055837563" blue="0.0028443871159308464" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
                                     <segue destination="0JH-Ij-hU9" kind="modal" id="mDx-5S-GtE"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qSQ-sf-gPM">
-                                <rect key="frame" x="16" y="334" width="288" height="60"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qSQ-sf-gPM">
+                                <rect key="frame" x="14" y="232" width="288" height="75"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="20"/>
-                                <state key="normal" title="予約" backgroundImage="ボタン枠.jpg">
+                                <state key="normal" image="予約.png">
                                     <color key="titleColor" red="0.35235373687823451" green="0.49593512055837563" blue="0.0028443871159308464" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
                                     <segue destination="O2S-b9-uUM" kind="modal" id="jts-Wy-Ppn"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ifn-ZF-i7v">
-                                <rect key="frame" x="16" y="81" width="288" height="60"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ifn-ZF-i7v">
+                                <rect key="frame" x="14" y="66" width="284" height="75"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" weight="black" pointSize="20"/>
-                                <state key="normal" title="ユーザーとしてログイン" backgroundImage="ボタン枠.jpg">
+                                <state key="normal" image="ユーザーとしてログイン.png">
                                     <color key="titleColor" red="0.35235373687823451" green="0.49593512055837563" blue="0.0028443871159308464" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
                                     <segue destination="9zE-fj-gSy" kind="modal" id="mfO-xK-Rf8"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aVg-o9-B9q">
-                                <rect key="frame" x="16" y="445" width="288" height="60"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aVg-o9-B9q">
+                                <rect key="frame" x="14" y="315" width="292" height="78"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="20"/>
-                                <state key="normal" title="お問い合わせ" backgroundImage="ボタン枠.jpg">
+                                <state key="normal" image="お問い合わせ.png" backgroundImage="白地.png">
                                     <color key="titleColor" red="0.35235373687823451" green="0.49593512055837563" blue="0.0028443871159308464" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
@@ -1055,7 +1082,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Unr-Qi-Ftx" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1685.625" y="-1951.056338028169"/>
+            <point key="canvasLocation" x="1686" y="-1602"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="fr9-EB-W6G">
@@ -1310,25 +1337,30 @@
         <image name="hyoi_icn.png" width="996" height="914"/>
         <image name="hyoiリモコン.png" width="1082" height="1082"/>
         <image name="michelさん（サンプル）.jpg" width="2306" height="2305"/>
+        <image name="お問い合わせ.png" width="677" height="175"/>
+        <image name="アバターとしてログイン.png" width="659" height="153"/>
         <image name="コロラド（サンプル）.jpg" width="640" height="465"/>
         <image name="ボタン丸.jpg" width="441" height="441"/>
         <image name="ボタン枠.jpg" width="1869" height="524"/>
         <image name="ホイアン（サンプル）.JPG" width="4032" height="3024"/>
+        <image name="ユーザーとしてログイン.png" width="658" height="153"/>
         <image name="丸の内駅舎（デモ）.JPG" width="3264" height="4912"/>
+        <image name="予約.png" width="667" height="158"/>
         <image name="人数表示.jpg" width="249" height="119"/>
         <image name="戻るボタン.jpg" width="101" height="68"/>
         <image name="東京（サンプル）.jpg" width="4722" height="3137"/>
+        <image name="白地.png" width="89" height="79"/>
         <image name="通話拒否.jpg" width="611" height="611"/>
         <image name="通話許可.jpg" width="605" height="605"/>
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="P70-xF-5wt"/>
-        <segue reference="PRR-xB-LmG"/>
+        <segue reference="jts-Wy-Ppn"/>
         <segue reference="WAv-n1-8wv"/>
-        <segue reference="IWB-H3-XCD"/>
+        <segue reference="eZ1-FZ-YK6"/>
         <segue reference="kXB-Wc-clY"/>
         <segue reference="gLY-rJ-vbI"/>
-        <segue reference="VK8-8S-HXd"/>
-        <segue reference="rWQ-mi-pri"/>
+        <segue reference="mfO-xK-Rf8"/>
+        <segue reference="yuL-ft-wIM"/>
     </inferredMetricsTieBreakers>
 </document>
